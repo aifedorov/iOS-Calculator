@@ -13,6 +13,7 @@
 		11D8D3F71BFCEA280026C4B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D3F51BFCEA280026C4B3 /* Main.storyboard */; };
 		11D8D3F91BFCEA280026C4B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D3F81BFCEA280026C4B3 /* Assets.xcassets */; };
 		11D8D3FC1BFCEA280026C4B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D3FA1BFCEA280026C4B3 /* LaunchScreen.storyboard */; };
+		11D8D4051BFD07B50026C4B3 /* CalculatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D4041BFD07B50026C4B3 /* CalculatorModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		11D8D3F81BFCEA280026C4B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11D8D3FB1BFCEA280026C4B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11D8D3FD1BFCEA280026C4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D8D4031BFD07B50026C4B3 /* CalculatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorModel.h; sourceTree = "<group>"; };
+		11D8D4041BFD07B50026C4B3 /* CalculatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				11D8D3FA1BFCEA280026C4B3 /* LaunchScreen.storyboard */,
 				11D8D3FD1BFCEA280026C4B3 /* Info.plist */,
 				11D8D3EC1BFCEA280026C4B3 /* Supporting Files */,
+				11D8D4031BFD07B50026C4B3 /* CalculatorModel.h */,
+				11D8D4041BFD07B50026C4B3 /* CalculatorModel.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				11D8D3F41BFCEA280026C4B3 /* ViewController.m in Sources */,
 				11D8D3F11BFCEA280026C4B3 /* AppDelegate.m in Sources */,
 				11D8D3EE1BFCEA280026C4B3 /* main.m in Sources */,
+				11D8D4051BFD07B50026C4B3 /* CalculatorModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
