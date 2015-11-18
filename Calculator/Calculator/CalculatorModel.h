@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface CalculatorModel : NSObject
+
+@property (copy, nonatomic) NSString *operation;
+@property (nonatomic) CGFloat currentOperand;
+
+- (CGFloat)performOperand:(CGFloat)operand;
 
 @end

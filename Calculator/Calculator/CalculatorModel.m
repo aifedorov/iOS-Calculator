@@ -10,4 +10,24 @@
 
 @implementation CalculatorModel
 
+- (CGFloat)performOperand:(CGFloat)operand
+{
+    CGFloat value = self.currentOperand;
+    
+    if ([self.operation isEqualToString:@"x"]) {
+        value *= operand;
+    }
+    else if ([self.operation isEqualToString:@"/"]) {
+        value /= operand;
+    }
+    else if ([self.operation isEqualToString:@"+"]) {
+        value += operand;
+    }
+    else if ([self.operation isEqualToString:@"-"]) {
+        value -= operand;
+    }
+    
+    return value;
+}
+
 @end
